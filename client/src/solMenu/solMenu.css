@@ -1,0 +1,60 @@
+.solMenu {
+    width: 100%;
+    height: 100%;
+}
+.solMenu .başlık {    
+    background-color: rgb(67, 67, 255);
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Georama', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+.solMenu .solMenuEleman {
+    background-color: rgb(29, 29, 124);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 0 10px;
+}
+.solMenu .solMenuEleman a {
+    color: white;
+    height: 30px;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.solMenu .solMenuEleman a:hover {
+    background-color: rgb(69, 69, 170);
+}
+.fa-tachometer-alt {
+    margin-right: 8px;
+}
+.fa-tags {
+    margin-right: 8px;
+}
+.fa-book {
+    margin-right: 8px;
+}
+.fa-store {
+    margin-right: 8px;
+}
+.fa-receipt {
+    margin-right: 8px;
+}
+.fa-users {
+    margin-right: 8px;
+}
+.fa-shopping-basket {
+    margin-right: 8px;
+}
+.fa-sign-out-alt {
+    margin-right: 8px;
+}

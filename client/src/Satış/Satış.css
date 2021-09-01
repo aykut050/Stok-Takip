@@ -1,0 +1,75 @@
+.satışSayfası {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+.satışSayfasıPadding {
+    padding: 1rem 0 0 1rem;
+}
+.satışSayfasıBaşlık {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2rem;
+    color: rgb(59, 59, 59);
+    padding: 1rem 0 0 1rem;
+}
+.satışSayfasıGörüntülemeAlanı {
+    width: 90%;
+    height: 100%;
+}
+.satışSayfasıGörüntülemeAlanıPadding {
+    margin: 2rem auto 2rem 1rem;
+    padding: 1rem 0 2rem 1rem;
+    display: flex;
+    flex-direction: column;    
+    background-color: white;
+}
+.satışSayfasıTarihSeçmePadding {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 1rem 0;
+}
+.ilkTarihSeçPadding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+.ilkTarihSeçPadding input {
+    margin-left: 1rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+.sonTarihSeçPadding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+.sonTarihSeçPadding input {
+    margin-left: 1rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+.satışSayfasıSonuçGörüntülePadding {
+    padding: 2rem 2rem 0 2rem;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.satışSayfasıSonuçGörüntüleBaşlık {
+    margin: 0 0 1rem 0;
+    font-family: arial, sans-serif;
+    font-size: 1.4rem;
+    color: rgb(36, 36, 36);
+    border-bottom: 2px solid rgb(121, 120, 120);
+}

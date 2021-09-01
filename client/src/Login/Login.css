@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');    
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+.loginSayfası {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(30, 136, 136);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginSayfası .loginBaşlık {
+    font-size: 4rem;
+    color: rgb(221, 169, 37);
+    font-weight: 800;
+    font-family: 'Rubik', sans-serif;
+    padding: 4rem 0 1rem;
+
+}
+.loginSayfası .loginForm {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+.loginSayfası .loginForm .loginAçıklama {
+    text-align: center;
+    padding: 1rem;
+    font-family: 'STIX Two Text', serif;
+    color: rgb(49, 49, 49);
+}
+.loginSayfası .loginForm .loginInputlar {
+    width: 80%;
+}
+.loginSayfası .loginForm .loginInputlar input {
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 2px;
+}
+.loginForm .loginButton {
+    padding-top: 1rem;
+}
+.loginForm .loginButton button {
+    padding: 10px;
+    border: none;
+    background-color: rgb(0, 185, 0);
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    border-radius: 6px;
+}
